@@ -49,7 +49,7 @@ button{
 
 .search-form{
     display: flex;
-    width: 60%;
+    width: 30%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -176,7 +176,9 @@ input{
 }
 
 @media (max-width: 480px) {
-    .gallery{
+
+    .search-form{
+        width: 60%;
     }
 
     .photo-card{
@@ -184,22 +186,30 @@ input{
         width: 100% ;
     }
     .info{
-        font-size: 14px;
+        font-size: 12px;
     }
 }
 
 @media (min-width: 481px) and (max-width: 768px) {
+
+    .search-form{
+        width: 50%;
+    }
 
     .photo-card{
         margin-bottom: 10px;
         width: calc(50% - 5px); /* 50% para 2 columnas en dispositivos móviles */
     }
     .info{
-        font-size: 12px;
+        font-size: 10px;
     }
 }
 
 @media (min-width: 769px) and (max-width: 1279px){
+
+    .search-form{
+        width: 40%;
+    }
 
     .photo-card{
         margin-bottom: 10px;
