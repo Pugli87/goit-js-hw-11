@@ -18,7 +18,7 @@ window.addEventListener('scroll', scrollImg);
 
 // funcions asincronica par buscar imagenes
 async function searchImages(searchQuery) {
-	const apiKey = '37119471-67d3015a83a24c7694e1d7310'; // Replace with your Pixabay API key
+	const apiKey = '37119471-67d3015a83a24c7694e1d7310';
 	const apiUrl = `https://pixabay.com/api/?
 	key=${apiKey}
 	&q=${searchQuery}
